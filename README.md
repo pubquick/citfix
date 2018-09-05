@@ -19,6 +19,142 @@ Citfix is a cloud based structuring bibliographic references for the Publishers,
 <h2>Preamble</h2>
 The Citfix REST API is one of a variety of tools and APIs that allow the user to structure the reference in a sophisticated ways.
 
+<h2>Short tag description</h2>
+<table>
+  <tr>
+    <th>Tag Name</th>
+    <th>Description</th> 
+  </tr>
+  <tr>
+    <td>ukn</td>
+    <td>Unknown</td> 
+  </tr>
+  <tr>
+    <td>snm</td>
+    <td>Author/Editor Surname</td> 
+  </tr>
+  <tr>
+    <td>gnm</td>
+    <td>Author/Editor Given name</td> 
+  </tr>
+    <tr>
+    <td>eds</td>
+    <td>Author/Editor EDS</td> 
+  </tr>
+    <tr>
+    <td>etal</td>
+    <td>Author/Editor delimiter etal</td> 
+  </tr>
+    <tr>
+    <td>suffix</td>
+    <td>Author/Editor suffix</td> 
+  </tr>
+  <tr>
+    <td>aug</td>
+    <td>Author group</td> 
+  </tr>
+    <tr>
+    <td>ed</td>
+    <td>Editor group</td> 
+  </tr>
+    <tr>
+    <td>ctl</td>
+    <td>Chapter title</td> 
+  </tr>
+    <tr>
+    <td>atl</td>
+    <td>Article title</td> 
+  </tr>
+    <tr>
+    <td>btl</td>
+    <td>Book title</td> 
+  </tr>
+    <tr>
+    <td>jtl</td>
+    <td>Journal title</td> 
+  </tr>
+    <tr>
+    <td>vol</td>
+    <td>Volume</td> 
+  </tr>
+    <tr>
+    <td>iss</td>
+    <td>Issue</td> 
+  </tr>
+    <tr>
+    <td>spg</td>
+    <td>Start page</td> 
+  </tr>
+    <tr>
+    <td>epg</td>
+    <td>End page</td> 
+  </tr>
+    <tr>
+    <td>pub</td>
+    <td>Publisher</td> 
+  </tr>
+    <tr>
+    <td>cty</td>
+    <td>City</td> 
+  </tr>
+    <tr>
+    <td>st</td>
+    <td>State</td> 
+  </tr>
+  <tr>
+    <td>cnt</td>
+    <td>Country</td> 
+  </tr>
+    <tr>
+    <td>col</td>
+    <td>Collab</td> 
+  </tr>
+  <tr>
+    <td>bull</td>
+    <td>Bullet</td> 
+  </tr>
+  <tr>
+    <td>mth</td>
+    <td>Publish/Access/Create/Retrieved Month</td> 
+  </tr>
+   <tr>
+    <td>day</td>
+    <td>Publish/Access/Create/Retrieved Day</td> 
+  </tr>
+  <tr>
+    <td>yr</td>
+    <td>Publish/Access/Create/Retrieved Year</td> 
+  </tr>
+  <tr>
+    <td>url</td>
+    <td>URL</td> 
+  </tr>
+  <tr>
+    <td>ssn</td>
+    <td>Season</td> 
+  </tr>
+  <tr>
+    <td>misc</td>
+    <td>Misc</td> 
+  </tr>
+  <tr>
+    <td>edn</td>
+    <td>Edition</td> 
+  </tr>
+  <tr>
+    <td>isbn</td>
+    <td>ISBN</td> 
+  </tr>
+  <tr>
+    <td>doi</td>
+    <td>DOI</td> 
+  </tr>
+  <tr>
+    <td>supp</td>
+    <td>Suppliment</td> 
+  </tr>
+</table>
+
 <h2>Integrate Citfix into your production workflow with API</h2>
 If you’re looking to integrate bibliographic reference processing into a larger automated workflow, you can access all of Citfix’s capabilities programmatically using the Citfix REST API.
 <h2>Reporting performance/availability, bugs, requesting features</h2>
