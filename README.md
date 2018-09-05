@@ -109,6 +109,10 @@ The Citfix REST API is one of a variety of tools and APIs that allow the user to
     <td>iss</td>
     <td>Issue</td> 
   </tr>
+   <tr>
+    <td>pgg</td>
+    <td>Page Group</td> 
+  </tr>
     <tr>
     <td>spg</td>
     <td>Start page</td> 
