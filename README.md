@@ -26,7 +26,7 @@ The Citfix REST API is one of a variety of tools and APIs that allow the user to
     <th>Description</th> 
   </tr>
   <tr>
-    <td><b></td>
+    <td>&lt;b&gt;</td>
     <td>Bold</td> 
   </tr>
   <tr>
