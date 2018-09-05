@@ -30,19 +30,19 @@ The Citfix REST API is one of a variety of tools and APIs that allow the user to
     <td>Bold</td> 
   </tr>
   <tr>
-    <td><i></td>
+    <td>&lt;i&gt;</td>
     <td>Italic</td> 
   </tr>
   <tr>
-    <td><u></td>
+    <td>&lt;u&gt;</td>
     <td>Underline</td> 
   </tr>
   <tr>
-    <td><sc></td>
+    <td>&lt;sc&gt;</td>
     <td>SMALL</td> 
   </tr>
   <tr>
-    <td><skp></td>
+    <td>&lt;skp&gt;</td>
     <td>SKIP</td> 
   </tr>
   </table>
