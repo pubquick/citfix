@@ -19,6 +19,34 @@ Citfix is a cloud based structuring bibliographic references for the Publishers,
 <h2>Preamble</h2>
 The Citfix REST API is one of a variety of tools and APIs that allow the user to structure the reference in a sophisticated ways.
 
+<h2>Supported format tags</h2>
+<table>
+  <tr>
+    <th>Tag Name</th>
+    <th>Description</th> 
+  </tr>
+  <tr>
+    <td><b></td>
+    <td>Bold</td> 
+  </tr>
+  <tr>
+    <td><i></td>
+    <td>Italic</td> 
+  </tr>
+  <tr>
+    <td><u></td>
+    <td>Underline</td> 
+  </tr>
+  <tr>
+    <td><sc></td>
+    <td>SMALL</td> 
+  </tr>
+  <tr>
+    <td><skp></td>
+    <td>SKIP</td> 
+  </tr>
+  </table>
+
 <h2>Short tag description</h2>
 <table>
   <tr>
