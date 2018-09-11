@@ -187,6 +187,22 @@ The Citfix REST API is one of a variety of tools and APIs that allow the user to
   </tr>
 </table>
 
+<h2>Limitation</h2>
+<table>
+  <tr>
+    <th>Description</th>
+    <th>Remarks</th> 
+  </tr>
+  <tr>
+    <td>&lt;b&gt;</td>
+    <td>Bold</td> 
+  </tr>
+  <tr>
+    <td>Client request limit</td>
+    <td>Maximum number references per request is 250</td> 
+  </tr>
+  </table>
+
 <h2>Integrate Citfix into your production workflow with API</h2>
 If you’re looking to integrate bibliographic reference processing into a larger automated workflow, you can access all of Citfix’s capabilities programmatically using the Citfix REST API.
 <h2>Reporting performance/availability, bugs, requesting features</h2>
