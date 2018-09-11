@@ -194,10 +194,6 @@ The Citfix REST API is one of a variety of tools and APIs that allow the user to
     <th>Remarks</th> 
   </tr>
   <tr>
-    <td>&lt;b&gt;</td>
-    <td>Bold</td> 
-  </tr>
-  <tr>
     <td>Client request limit</td>
     <td>Maximum number references per request is 250</td> 
   </tr>
