@@ -1,4 +1,4 @@
-﻿Imports System.Collections.Concurrent
+Imports System.Collections.Concurrent
 Imports System.Net.Http
 Imports System.Net.Http.Headers
 Imports System.Threading.Tasks
@@ -9,16 +9,18 @@ Imports System.Net
 
 Public Class refClient
 	Dim BaseUrl As String = "https://pubquick.co.uk/"
-	Public Class cwebkey
-		Public Property email As String = String.Empty
-	End Class
+
 	Public Function Parse(orefquery As Query) As QueryResult
 		Try
 			Using wclient As New Net.Http.HttpClient()
 				wclient.BaseAddress = New Uri(BaseUrl)
 				wclient.DefaultRequestHeaders.Accept.Clear()
 				wclient.DefaultRequestHeaders.Accept.Add(New Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"))
-				Dim postTask = wclient.PostAsJsonAsync("api/refparser", orefquery)
+				wclient.Timeout = TimeSpan.FromMinutes(30)
+
+				Dim requestcontent = New StringContent(JsonConvert.SerializeObject(orefquery), System.Text.Encoding.UTF8, "application/json")
+				'Dim postTask = wclient.PostAsJsonAsync("api/refparser", orefquery)
+				Dim postTask = wclient.PostAsync("api/refparser", requestcontent)
 				postTask.Wait()
 				Dim result = postTask.Result
 				If result.IsSuccessStatusCode Then
@@ -26,7 +28,7 @@ Public Class refClient
 					readTask.Wait()
 					Dim converters As Newtonsoft.Json.JsonConverter() = {New RefItemJsonConverter()}
 					Dim qresult As QueryResult = Newtonsoft.Json.JsonConvert.DeserializeObject(Of QueryResult)(readTask.Result, New Newtonsoft.Json.JsonSerializerSettings() With {.Converters = converters})
-					If qresult IsNot Nothing Then
+					If qresult IsNot Nothing AndAlso qresult.Refs.Count > 0 Then
 						Return qresult
 					Else
 						Return Nothing
@@ -86,7 +88,7 @@ Public Class QueryResult
 	Public Property Result As Boolean = False
 	Public Property Remarks As String = String.Empty
 	Public Property timetaken As Integer
-	Public Property Refs As New ConcurrentBag(Of refData)
+	Public Property Refs As New List(Of refData)
 End Class
 
 Public Class refData
@@ -97,6 +99,7 @@ Public Class refData
 	Public Property matchpercent As Integer = 0
 	Public Property id As String = String.Empty
 	Public Property rid As Long = 0
+	Public Property seq As Integer = 0
 	Public Property timetaken As Integer = 0
 	Public Property reftype As String = String.Empty
 	Public Class crefinfo
@@ -141,9 +144,12 @@ Public Class Query
 	Public Property Demomode As Boolean = False
 	Public Property refs As New List(Of refitem)
 
+
 	Public Class refitem
 		Public Property id As String = String.Empty
-		Public Property rid As Long = 0
+		Public Property seq As Integer = 0
 		Public Property txt As String = String.Empty
+
+		Public Property RefData As refData
 	End Class
 End Class
