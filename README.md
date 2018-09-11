@@ -45,6 +45,14 @@ The Citfix REST API is one of a variety of tools and APIs that allow the user to
     <td>&lt;skp&gt;</td>
     <td>SKIP</td> 
   </tr>
+    <tr>
+    <td>&lt;sup&gt;</td>
+    <td>Superscript</td> 
+  </tr>
+    <tr>
+    <td>&lt;sub&gt;</td>
+    <td>Subscript</td> 
+  </tr>
   </table>
 
 <h2>Short tag description</h2>
