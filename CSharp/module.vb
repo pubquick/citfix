@@ -19,7 +19,7 @@ Module Module1
 
 
 
-		'Add references
+		'Add references (Maximum number of refereces allowed per request is 250)
 		oQuery.refs.Add(orefitem1)
 		oQuery.refs.Add(orefitem2)
 
