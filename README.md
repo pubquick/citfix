@@ -87,11 +87,11 @@ The Citfix REST API is one of a variety of tools and APIs that allow the user to
   </tr>
   <tr>
     <td>aug</td>
-    <td>Author group</td> 
+    <td>Author(s) group</td> 
   </tr>
     <tr>
     <td>edg</td>
-    <td>Editor group</td> 
+    <td>Editor(s) group</td> 
   </tr>
     <tr>
     <td>ctl</td>
