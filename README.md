@@ -133,6 +133,10 @@ The Citfix REST API is one of a variety of tools and APIs that allow the user to
     <td>pub</td>
     <td>Publisher</td> 
   </tr>
+      <tr>
+    <td>loc</td>
+    <td>Location Group</td> 
+  </tr>
     <tr>
     <td>cty</td>
     <td>City</td> 
