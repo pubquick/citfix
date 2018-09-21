@@ -65,6 +65,14 @@ The Citfix REST API is one of a variety of tools and APIs that allow the user to
     <td>ukn</td>
     <td>Unknown</td> 
   </tr>
+    <tr>
+    <td>del</td>
+    <td>delimiter</td> 
+  </tr>
+    <tr>
+    <td>deland</td>
+    <td>Author/Editor delimiter 'and &'</td> 
+  </tr>
   <tr>
     <td>snm</td>
     <td>Author/Editor Surname</td> 
