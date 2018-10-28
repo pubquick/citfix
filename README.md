@@ -106,7 +106,7 @@ The Citfix REST API is one of a variety of tools and APIs that allow the user to
     <td>Chapter title</td> 
   </tr>
       <tr>
-    <td>artno</td>
+    <td>ano</td>
     <td>Article Number</td> 
   </tr>
     <tr>
