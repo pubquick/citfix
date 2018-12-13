@@ -15,6 +15,11 @@ Citfix is a cloud based structuring bibliographic references for the Publishers,
 
 <b>Accuracy:</b> Citfix verifies 240+ million records, along with PubMed and Crossref
 
+<h1>Citfix Webservices</h1>
+The Citfix Premium Webservices are running on faster servers with more RAM and less load to guarantee fast and reliable response time. The commercial web services have higher uptime and failover to other servers in case of hardware defects or software bugs. By entering in a commercial relation with pubquick.co.uk you can be sure the services don't disappear one day without notice.
+
+The Citfix Paid Web Services are the right choice for you if you need fast, reliable response time and you want to be sure the service keeps on running. If you want to implement your own services directly on the data the Paid Subscription will be your choice.
+
 <h1>Citfix REST API</h1>
 <h2>Preamble</h2>
 The Citfix REST API is one of a variety of tools and APIs that allow the user to structure the reference in a sophisticated ways.
