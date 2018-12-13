@@ -1,7 +1,7 @@
 # Citfix
 Citfix helps you get structured bibliographic reference in a easy way
 
-Citfix is a cloud based structuring bibliographic references for the Publishers, Freelance editors, Services providers and the Authors. With its unique AI cloud based technology, Citfix can easily structure the bibliographic references, save time and cost for your editorial team. It assures 100% accuracy by verifying references with 240+ Million records as well as with PubMed and Crossref.
+Citfix is a cloud based bibliographic reference Parser/Structuring for the Publishers, Freelance editors, Services providers and the Authors. With its unique AI cloud based technology, Citfix can easily structure the bibliographic references, save time and cost for your editorial team. It assures 100% accuracy by verifying references with 750+ Million records as well as with PubMed and Crossref.
 
 <b>Structuring:</b> Citfix can easily structure the references to XML, RIS and JAT XML formats.
 
@@ -13,7 +13,7 @@ Citfix is a cloud based structuring bibliographic references for the Publishers,
 
 <b>Save time:</b> Automate tedious task such as linking and structuring
 
-<b>Accuracy:</b> Citfix verifies 240+ million records, along with PubMed and Crossref
+<b>Accuracy:</b> Citfix verifies 750+ million records, along with PubMed and Crossref
 
 <h1>Citfix Webservices</h1>
 The Citfix Premium Webservices are running on faster servers with more RAM and less load to guarantee fast and reliable response time. The commercial web services have higher uptime and failover to other servers in case of hardware defects or software bugs. By entering in a commercial relation with pubquick.co.uk you can be sure the services don't disappear one day without notice.
