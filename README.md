@@ -229,7 +229,7 @@ The Citfix REST API is one of a variety of tools and APIs that allow the user to
   </table>
   
   <h2>Check Usage</h2>
-  https://pubquick.co.uk/api/billing/<yourwebkey>
+  https://pubquick.co.uk/api/billing/yourwebkey :Replace your webkey 
 
 <h2>Integrate Citfix into your production workflow with API</h2>
 If you’re looking to integrate bibliographic reference processing into a larger automated workflow, you can access all of Citfix’s capabilities programmatically using the Citfix REST API.
