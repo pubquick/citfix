@@ -126,6 +126,10 @@ The Citfix REST API is one of a variety of tools and APIs that allow the user to
     <td>jtl</td>
     <td>Journal title</td> 
   </tr>
+  <tr>
+    <td>src</td>
+    <td>Source</td>
+  </tr>
     <tr>
     <td>vol</td>
     <td>Volume</td> 
